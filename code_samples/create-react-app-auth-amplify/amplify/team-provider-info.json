@@ -1,0 +1,19 @@
+{
+    "amathonenv": {
+        "awscloudformation": {
+            "AuthRoleName": "authcra-amathonenv-20190826223317-authRole",
+            "UnauthRoleArn": "arn:aws:iam::840805117729:role/authcra-amathonenv-20190826223317-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::840805117729:role/authcra-amathonenv-20190826223317-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "authcra-amathonenv-20190826223317-deployment",
+            "UnauthRoleName": "authcra-amathonenv-20190826223317-unauthRole",
+            "StackName": "authcra-amathonenv-20190826223317",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:840805117729:stack/authcra-amathonenv-20190826223317/1192c0a0-c806-11e9-956e-02d286d7265a"
+        },
+        "categories": {
+            "auth": {
+                "cognitocf0c6096": {}
+            }
+        }
+    }
+}
