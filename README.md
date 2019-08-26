@@ -1,3 +1,5 @@
+# Amplify로 풀사이클 개발 체험하기
+
 여러분을 환영합니다! 만약 미리 진행하고 싶으시다면 세션의 흐름과 무관하게 먼저 실습을 진행하셔도 무방하니 자유롭게 세션을 즐겨주세요!
 
 ### 본 실습 세션의 기본적인 흐름은 아래와 같습니다.
@@ -43,9 +45,9 @@
 > amplify configure
 ```
 
-앞으로 진행될 목차
+## 앞으로 진행될 목차
 
-# [React와 Amplify로 풀사이클 개발 체험하기, 이론 자료 - Lectures](lectures/chapter1.md)
+### [React와 Amplify로 풀사이클 개발 체험하기, 이론 자료 - Lectures](lectures/chapter1.md)
 
 [What is learning today?](lectures/chapter1.md)
 [What is Full Cycle and FCD(Full Cycle Developer)?](lectures/chapter2.md)
@@ -54,6 +56,6 @@
 
 [How to use Amplify in React?](lectures/chapter5.md)
 
-# [React와 Amplify로 풀사이클 개발 체험하기, 실습 자료 - CodeLab](codelab/README.md)
+### [React와 Amplify로 풀사이클 개발 체험하기, 실습 자료 - CodeLab](codelab/README.md)
 
 ### [실습에 사용되는 코드 샘플](code_sample/)
