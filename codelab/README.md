@@ -20,7 +20,7 @@ Auth features: User sign up, User sign in, Multi-factor Authentication, User sig
 
 ## Run locally with the Amplify CLI(함께 진행할 때 추천, 아마톤 사전 세션에서 사용됩니다)
 
-1. [create-react-app-auth-amplify]()에 접속한 후 자신의 계정으로 해당 레포지토리를 포크하세요. 포크한 다음에는 자신(<username>)의 로컬 환경에 클론하세요.
+1. [create-react-app-auth-amplify](https://github.com/aws-samples/create-react-app-auth-amplify)에 접속한 후 자신의 계정으로 해당 레포지토리를 포크하세요. 포크한 다음에는 자신의 로컬 환경에 클론하세요.
 
 ```
 git clone https://github.com/<username>/create-react-app-auth-amplify.git
