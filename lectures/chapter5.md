@@ -36,7 +36,7 @@ If the build succeeds, the app is deployed and hosted on a global CDN with an am
 
 * Amplify를 통해 server side rendering을 구현하기 위해서는 어떻게 하면 좋을까요?
 
-> 기본 골격은 일반적인 어플리케이션과 다르지 않습니다. 람다를 통해 서버 사이드 로직을 통해 빌드된 클라이언트 사이드 로직을 돌리는 것이죠.
+> Amplify 이전에 리액트로 server side rendering을 한다는 것은 두 가지 케이스로 나눠서 생각해볼 수 있습니다. Next와 같은 별도의 라이브러리를 사용하거나, 직접 서버 사이드 렌더링에 필요한 서버를 구성하는 방법이 그 두 케이스인데, 두 케이스 모두 빌드를 진행해 dist 디렉터리를 생성하게되고, 그 이후에는 dist를 ec2에 올려 직접 컴퓨팅하거나 Lambda와 같은 Faas를 통해 컴퓨팅을 AWS에 일임할 수 있습니다.
 
 * Amplify를 실무에 적용하기 위해서는 어떤 지식이 필요할까요?
 
