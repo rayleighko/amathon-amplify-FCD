@@ -193,6 +193,10 @@ Amplify가 생성한 S3 버킷은 자동으로 삭제되지 않습니다. 버킷
 ---
 
 
+만약 더 많은 학습을 원하신다면 다음을 추천드립니다!!
+
+[2019 AWS 뿌시기 2회차 - AWS와 CRA(Create React App)으로 달리기 게임을 뚝딱!](https://github.com/AUSG/ausg-seminar-2019/tree/master/WebTrack/WebTrack2)
+
 
 ## AWS Amplify Console을 이용한 시작(혼자 진행할 때 추천)
 
@@ -202,8 +206,9 @@ The AWS Amplify Console provides hosting for fullstack serverless web apps. [Lea
 
 The Amplify Console will fork this repo in your GitHub account, and then build and deploy your backend and frontend in a single workflow. Your app will be available at `https://master.appid.amplifyapp.com`.
 
-> > > > > > > > > > 권한 부여가 필요한데, 그에 대한 가이드가 없어서 추후 제공 예정(롤을 부여해야 제대로 작동합니다!)
-> > > > > > > > > > 완료되면 상단의 'Learn how to get the most out of Amplify Console'를 참고해 각 내용을 진행해보는 것도 좋습니다.
+> 이 작업에는 별도의 권한 부여가 필요합니다(롤을 부여해야 제대로 작동합니다)!
+>
+> Amplify가 생성 완료되면 상단의 'Learn how to get the most out of Amplify Console'를 참고해 각 내용을 진행해보는 것도 좋습니다.
 
 ```
 // 현재 amplify 상태 확인
