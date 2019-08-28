@@ -36,7 +36,14 @@
 
 본 실습 세션에는 실제 코딩이 포함됩니다. VS Code를 꼭 설치해주세요.
 
-## 4. Terminal & Amplify CLI
+## 4. Node와 그 친구 NPM(Node Package Manager)
+
+- Node [다운로드](https://nodejs.org/ko/download/)
+- NPM(Node 설치 시 자동으로 다운로드됨)
+
+안전한 사용을 위해서 LTS 버전을 추천합니다.
+
+## 5. Terminal & Amplify CLI
 
 터미널에서 다음 명령어를 통해 설치를 진행하시면 됩니다. 만약 제대로 설치가 되지 않는다면, [여기](https://aws-amplify.github.io/docs/)를 참고하세요.
 
