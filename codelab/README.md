@@ -20,7 +20,7 @@ Auth features: User sign up, User sign in, Multi-factor Authentication, User sig
 
 ## Run locally with the Amplify CLI(함께 진행할 때 추천, 아마톤 사전 세션에서 사용됩니다)
 
-1. [create-react-app-auth-amplify]()에 접속한 후 자신의 계정으로 해당 레포지토리를 포크하세요. 포크한 다음에는 자신(<username>)의 로컬 환경에 클론하세요.
+1. [create-react-app-auth-amplify](https://github.com/aws-samples/create-react-app-auth-amplify)에 접속한 후 자신의 계정으로 해당 레포지토리를 포크하세요. 포크한 다음에는 자신의 로컬 환경에 클론하세요.
 
 ```
 git clone https://github.com/<username>/create-react-app-auth-amplify.git
@@ -40,23 +40,23 @@ https://console.aws.amazon.com/
 Press Enter to continue
 // 로그인이 완료됐다면 엔터를 눌러주세요.
 
-// 리전을 설정합니다(서울 리전은 'ap-southeast-2' 입니다.)
+// 리전을 설정합니다(서울 리전은 'ap-northeast-2' 입니다.)
 Specify the AWS Region
-? region:  
-  ap-northeast-1 
-  ap-northeast-2 
-  ap-southeast-1 
-❯ ap-southeast-2 
-  ap-south-1 
-  us-east-1 
-  us-east-2 
+? region:
+  ap-northeast-1
+> ap-northeast-2
+  ap-southeast-1
+  ap-southeast-2
+  ap-south-1
+  us-east-1
+  us-east-2
 (Move up and down to reveal more choices)
 
 ? user name: amathon
 
 // 열린 AWS 콘솔을 통해 유저를 생성합니다.
 // 콘솔도 사용할 수 있으니 콘솔에 대한 설정도 추가,
-// 권한은 원활한 실습을 위해  AdministratorAccess를 사용하지만, 실제로 사용할 때는 사용할 서비스에 대한 권한만 부여하는 것을 권장한다고 설명해야 함
+// 원활한 실습을 위해 권한은 'AdministratorAccess'를 사용하지만, 실제로 사용할 때는 사용할 서비스에 대한 권한만 부여하는 것을 권장합니다.
 
 // 액세스 키와 시크릿 키 화면이 보여지면 터미널로 돌아와 엔터를 누른 후 액세스 키와 시크릿 키를 입력하도록 한다.
 Enter the access key of the newly created user:
@@ -152,8 +152,8 @@ The AWS Amplify Console provides hosting for fullstack serverless web apps. [Lea
 
 The Amplify Console will fork this repo in your GitHub account, and then build and deploy your backend and frontend in a single workflow. Your app will be available at `https://master.appid.amplifyapp.com`.
 
->>>>>>>>>> 권한 부여가 필요한데, 그에 대한 가이드가 없어서 추후 제공 예정(롤을 부여해야 제대로 작동합니다!)
->>>>>>>>>> 완료되면 상단의 'Learn how to get the most out of Amplify Console'를 참고해 각 내용을 진행해보는 것도 좋습니다.
+> > > > > > > > > > 권한 부여가 필요한데, 그에 대한 가이드가 없어서 추후 제공 예정(롤을 부여해야 제대로 작동합니다!)
+> > > > > > > > > > 완료되면 상단의 'Learn how to get the most out of Amplify Console'를 참고해 각 내용을 진행해보는 것도 좋습니다.
 
 ```
 // 현재 amplify 상태 확인
@@ -161,4 +161,3 @@ The Amplify Console will fork this repo in your GitHub account, and then build a
 ```
 
 만약 여기서 추가적인 인증 구현(소셜 로그인 등)을 원하신다면 Checkout Nader Dabit's [Complete Guide to User Authentication](https://dev.to/dabit3/the-complete-guide-to-user-authentication-with-the-amplify-framework-2inh)을 참고하시길 바랍니다.
-

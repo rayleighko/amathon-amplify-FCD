@@ -45,6 +45,14 @@
 > amplify configure
 ```
 
+`@aws-amplify/cli`는 현재 일부 환경에서 'Optional Dependency가 정상적으로 설치되지 않는 [이슈](https://github.com/aws-amplify/amplify-cli/issues/1996)'를 가지고 있습니다. 다행히 실습을 진행하는 과정에는 큰 영향이 없으니, 설치 마지막 부분에 다음과 같은 메세지가 나오는 것을 확인해주세요.
+
+```bash
+----------------------------------------
+Successfully installed the Amplify CLI
+----------------------------------------
+```
+
 ## 앞으로 진행될 목차
 
 ### [React와 Amplify로 풀사이클 개발 체험하기, 이론 자료 - Lectures](lectures/chapter1.md)
@@ -58,4 +66,4 @@
 
 ### [React와 Amplify로 풀사이클 개발 체험하기, 실습 자료 - CodeLab](codelab/README.md)
 
-### [실습에 사용되는 코드 샘플](code_sample/)
+### [실습에 사용되는 코드 샘플](https://github.com/rayleighko/amathon-amplify-FCD/tree/master/code_samples/create-react-app-auth-amplify)

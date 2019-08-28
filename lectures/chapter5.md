@@ -17,34 +17,30 @@ The AWS Amplify Console provides continuous deployment and hosting for modern we
 If the build succeeds, the app is deployed and hosted on a global CDN with an amplifyapp.com domain. You can now continuously deploy changes to your frontend or backend. Continuous deployment allows developers to deploy updates to their frontend and backend on every code commit to their Git repository.
 ```
 
-마지막으로 Amplify의 기능들은 다음과 같으며, 이 중 별표(*)가 붙은 도구를 이번 자료에서 사용할 예정입니다.
+마지막으로 Amplify의 기능들은 다음과 같으며, 이 중 별표(\*)가 붙은 도구를 이번 자료에서 사용할 예정입니다.
 
 | Category      |
 | ------------- |
 | analytics     |
 | api           |
-| auth          |
+| auth \*       |
 | function      |
-| hosting       |
+| hosting \*    |
 | interactions  |
 | notifications |
 | storage       |
 | xr            |
 
-
 그렇다면 이제 본격적으로 [실습 진행하러 가기](../codelab/README.md)를 통해 실습을 진행하면서 Amplify로 풀사이클 개발을 체험해보도록 합시다! 당연하지만, '체험'이기 때문에 깊은 이야기를 하지는 않습니다. 만약 다음과 같은 질문이 떠오르신다면, 구글신의 힘을 빌어보도록 하죠(물론 대략적인 설명은 덧붙여놓겠습니다. ㅎㅎ)!
 
-* Amplify를 통해 server side rendering을 구현하기 위해서는 어떻게 하면 좋을까요?
+- Amplify를 통해 server side rendering을 구현하기 위해서는 어떻게 하면 좋을까요?
 
 > 기본 골격은 일반적인 어플리케이션과 다르지 않습니다. 람다를 통해 서버 사이드 로직을 통해 빌드된 클라이언트 사이드 로직을 돌리는 것이죠.
 
-* Amplify를 실무에 적용하기 위해서는 어떤 지식이 필요할까요?
+- Amplify를 실무에 적용하기 위해서는 어떤 지식이 필요할까요?
 
 > Amplify가 아니더라도 어떤 도구를 사용하려 할 때 기본적인 지식을 모르고 사용하면 사이드 이펙트를 관리하기 어렵습니다. 만약 최대한 사이드 이펙트를 줄이고 싶으시다면, 기본적인 CS를 포함해 Cloud Computing과 클라이언트 구현 능력, 사용되는 AWS 도구들에 대한 지식 등이 필요하지 않을까요?
 
-* Amplfiy를 쓴다고 해도 결국 AWS Console을 써야 하고, 에디터로 코드를 작성해야 한다면 굳이 왜 써야 할까요?
+- Amplfiy를 쓴다고 해도 결국 AWS Console을 써야 하고, 에디터로 코드를 작성해야 한다면 굳이 왜 써야 할까요?
 
 > 여기에 대한 답은 지극히 주관적일 수밖에 없기 때문에, 답할 수 없습니다. 하지만, 개발 과정에서 염두하고 사용하지 않는다면 굳이 Amplify를 써야하는 상황은 발생하지 않을 거라는 생각이 있습니다. 지금까지 해오던 방식으로도 잘만 굴러가는 서비스를 굳이 Amplify라는 도구를 학습해가며 쓸 이유는 없다고 생각하기 때문입니다. 물론 Amplify가 지금보다 더 발전한다면 모르지만요. :)
-
-
-
