@@ -1,15 +1,15 @@
 # What is Full Cycle and FCD(Full Cycle Developer)?
 
 ### Full Stack은 들어봤는데, Full Cycle?
-
+
 벌써 1년도 전에 넷플릭스의 개발 문화 중 하나로 알려진 [넷플릭스의 풀사이클 개발자에 대한 글](https://medium.com/netflix-techblog/full-cycle-developers-at-netflix-a08c31f83249)이 미디엄에 널리 퍼졌었습니다. 그 개념은 스타트업의 상상의 동물 중 하나인 풀스택 개발자와 유사합니다. 흔히 말하는 풀스택 개발자는 애플리케이션 개발에 필요한 모든 기술을 다루는 엔지니어를 뜻하는데, 흔히 다음 키워드를 실무에서 적용시킬 수 있는 엔지니어를 말하곤 합니다.
 
-* 프론트엔드, 백엔드
-* 데이터베이스
-* 데브옵스
-* 아키텍트
+- 프론트엔드, 백엔드
+- 데이터베이스
+- 데브옵스
+- 아키텍트
 
-풀스택과 풀사이클 개발자의 차이는 [Full Stack vs Full Cycle developer - Elton Minetto](https://dev.to/eminetto/full-stack-vs-full-cycle-developer-50hf)를 찾아보면 어느정도 설득력있게 말하지만, [6 Essential Tips on How to Become a Full Stack Developer](https://hackernoon.com/6-essential-tips-on-how-to-become-a-full-stack-developer-1d10965aaead)을 통해 알 수 있는 것처럼, 사실상 그 둘을 구분하는 일은 자장면이나 짜장면이냐를 이야기하는 것과 같이 애매모호하기 때문에 이 글에서는 굳이 구분하지 않고 둘을 혼용해 사용하도록 하겠습니다. 그냥 둘 다 개발 전반을 담당하는 엔지니어인 건 변함없으니까요!
+풀스택과 풀사이클 개발자의 차이는 [Full Stack vs Full Cycle developer - Elton Minetto](https://dev.to/eminetto/full-stack-vs-full-cycle-developer-50hf)를 찾아보면 어느정도 설득력있게 말하지만, [6 Essential Tips on How to Become a Full Stack Developer](https://hackernoon.com/6-essential-tips-on-how-to-become-a-full-stack-developer-1d10965aaead)을 통해 알 수 있는 것처럼, 사실상 그 둘을 구분하는 일은 자장면이나 짜장면이냐를 이야기하는 것과 같이 애매모호하기 때문에 이 글에서는 굳이 구분하지 않고 둘을 혼용해 사용하도록 하겠습니다. 그냥 둘 다 개발 전반을 담당하는 엔지니어인 건 변함없으니까요!
 
 다시 본론으로 돌아와서 풀사이클 개발에 대해 알아보면, 넷플릭스의 정의는 하나의 문제를 해결하기 위한 해결 과정을 하나의 사이클로 생각하고, 개발팀은 그 문제에 대한 설계, 개발, 테스트, 배포, 운영 전반을 담당해 처리한다고 이야기한다고 합니다(물론 그 조건은 with amazing developer productivity tools이지만 말이죠).
 
@@ -35,7 +35,7 @@
 
 풀스택 개발은 설계부터 프론트엔드와 백엔드, 인프라를 비롯한 운영 전반까지를 하나의 팀 혹은 한 명의 엔지니어가 담당하기 때문입니다. 가령 하나의 토스트를 만들 때 오버해서 `빵(1kg) + 채소(1kg) + 햄(1kg) = 토스트(3kg)`으로 만드는 게 아니라 `빵(0.3kg) + 채소(0.3kg) + 햄(0.4kg) = 토스트(1kg)`으로 만들어야 하는 것처럼 풀스택 엔지니어의 업무량도 물리적인 인적 자원의 한계를 고려해 생각해야 합니다(풀스택 한 명 있다고 1달만에 앱이 배포되는 건 아니란 말입니다! 우리의 개발자를 살려주세요...).
 
-그렇다면 이제 풀스택, 그러니까 풀사이클 개발에 대한 제 개인의 주관이 포함된 대략적인 설명을 끝내고 [다음 자료](chapter2.md)로 이동하시길 바라겠습니다.
+그렇다면 이제 풀스택, 그러니까 풀사이클 개발에 대한 제 개인의 주관이 포함된 대략적인 설명을 끝내고 [다음 자료](chapter3.md)로 이동하시길 바라겠습니다.
 
 #### 참고 자료
 
