@@ -152,6 +152,48 @@ Current Environment: amathonenv
 
 이제부터는 'amplify push'와 'amplify publish'를 이용하면 인프라를 세팅하고 배포할 수 있는 환경이 구성되었습니다. 앞으로는 내용이 변경되면 중단없이 앱을 변경할 수 있게 되었습니다. 축하드립니다!
 
+
+0. 지금까지 만든 Amplify 프로젝트 삭제하기
+
+추가적으로 다음을 참고해 금일 진행한 세션의 AWS 서비스를 삭제하시면 이후 추과 과금에 대한 우려를 줄이실 수 있습니다. 더불어 다음 명령으로 삭제되지 않는 것들(s3 버킷등)이 있을 수 있으니 꼭 AWS 콘솔을 통해 자신의 인스턴스를 체크해보시길 바라겠습니다.
+
+> 삭제에 대한 자료는 위에서 제공하는 [AWS Amplify 실습 자료(Cognito, S3, Lambda, AppSync)](https://awskrug.github.io/amplify-photo-gallery-workshop/)에 적혀있는 '리소스 삭제하기'의 일부를 인용했습니다.
+
+```
+$ amplify delete
+```
+
+Amplify는 우리가 이번 워크샵에서 프로비저닝했던 모든 리소스들을 삭제하는 작업을 할 수 있습니다 (프로비저닝된 CloudFormation 중첩스택을 삭제하는 작업을 시도합니다). 그러나 몇가지 리소스들은 수동으로 삭제해줘야 합니다. (삭제 거부)
+
+### 삭제 작업이 실패한 일부 리소스를 수동으로 삭제하기
+
+이제 CloudFormation stacks console로 이동해서 ‘DELETE FAILED’상태표시를 나타내는 몇개의 스택들을 클릭합니다. 삭제 실패된 원인과 무엇이 실패되었는지를 보실 수 있습니다.
+
+CloudFormation이 스택들을 삭제하려고 할 때 인증된 사용자의 IAM역할이 있다고 하더라도 연동된 정책들이 남아 있다면 이 때문에 삭제 작업이 실패합니다. 하지만 이 시점에서 연동된 정책들 역시 모두 삭제 되어야하며 다른 스택 삭제 작업도 성공해야 합니다.
+
+스택 삭제를 위해선 AWS 콘솔을 통해 CloudFormation으로 접속해 다음 작업을 수행하시면 됩니다.
+
+```
+- 삭제실패된 스택을 선택합니다.
+- Actions을 클릭합니다.
+- 스택삭제를 선택합니다.
+- Auth 역할을 클릭해제하고, 예, 삭제합니다를 클릭합니다.
+```
+
+만약 삭제되지 않았다면, IAM Roles console으로 이동한 후, 해당역할(및 유저)을 검색해서 선택 및 삭제해주세요.
+
+Amplify가 생성한 S3 버킷은 자동으로 삭제되지 않습니다. 버킷을 삭제하려면 다음 단계를 따르세요 :
+
+```
+- S3 console로 이동합니다.
+- 생성일자 열을 클릭하여 최근생성된 버킷들을 순차적으로 정렬합니다.
+- 각 버킷별로 클릭하고 버킷 삭제 버튼을 클릭하여 삭제 확인을 하기위해 버킷명을 복사/붙여넣기합니다.
+```
+
+---
+
+
+
 ## AWS Amplify Console을 이용한 시작(혼자 진행할 때 추천)
 
 The AWS Amplify Console provides hosting for fullstack serverless web apps. [Learn more](https://console.amplify.aws). Deploy this app to your AWS account with a single click:
