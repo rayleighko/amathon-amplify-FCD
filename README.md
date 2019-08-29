@@ -4,11 +4,11 @@
 
 ### 본 실습 세션의 기본적인 흐름은 아래와 같습니다.
 
-- VS Code의 터미널에서 Amplify CLI를 이용해 유저 생성 및 AWS IAM 설정하기
-- VS Code의 터미널에서 Amplify CLI를 이용해 생성한 유저의 엑세스 키 ID와 비밀 액세스 키 설정하기
-- VS Code의 터미널에서 Create React App으로 웹 앱의 클라이언트 만들기
+- VS Code의 터미널에서 AWS 콘솔과 Amplify CLI를 이용해 유저 생성 및 AWS IAM 설정하기
+- 생성한 유저의 엑세스 키 ID와 비밀 액세스 키를 이용해 로컬 AWS 계정 만들기
+- VS Code의 터미널에서 웹 앱의 클라이언트 만들기
 - VS Code의 터미널에서 Amplify CLI를 이용해 AWS Cognito 서비스 연결하기
-- VS Code의 터미널에서 Amplify CLI를 이용해 AWS S3와 CloudFront를 구성해 서비스 호스팅하기
+- VS Code의 터미널에서 Amplify CLI를 이용해 AWS S3와 CloudFront를 구성해 서비스 호스팅하기(http, https)
 
 - 짜잔! 풀사이클 개발 환경 탄생!
 
